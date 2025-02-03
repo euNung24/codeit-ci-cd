@@ -5,6 +5,7 @@
 
 /** @type {import('jest').Config} */
 const config = {
+  coverage: true,
   coverageProvider: "v8",
   moduleNameMapper: {
     "^@/(.*)$": "<rootDir>/src/$1",
